@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITextFieldDelegate>
+
+@property (weak, nonatomic) IBOutlet UIScrollView *scroll;
+
+@property (weak, nonatomic) UITextField * activeField;
+
+@property (weak, nonatomic) IBOutlet UITextField *textfield1;
+@property (weak, nonatomic) IBOutlet UITextField *textfield2;
+@property (weak, nonatomic) IBOutlet UITextField *textfield3;
+@property (weak, nonatomic) IBOutlet UITextField *textfield4;
+
 
 @end

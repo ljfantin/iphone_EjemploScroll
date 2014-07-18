@@ -19,6 +19,8 @@
 		4F9EBB29197862C800CE62F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9EBB11197862C800CE62F4 /* UIKit.framework */; };
 		4F9EBB31197862C800CE62F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F9EBB2F197862C800CE62F4 /* InfoPlist.strings */; };
 		4F9EBB33197862C800CE62F4 /* EjemploScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9EBB32197862C800CE62F4 /* EjemploScrollTests.m */; };
+		8BAFEF7219789ECD00CEFE96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAFEF7019789ECD00CEFE96 /* ViewController.m */; };
+		8BAFEF7319789ECD00CEFE96 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BAFEF7119789ECD00CEFE96 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		4F9EBB2E197862C800CE62F4 /* EjemploScrollTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EjemploScrollTests-Info.plist"; sourceTree = "<group>"; };
 		4F9EBB30197862C800CE62F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4F9EBB32197862C800CE62F4 /* EjemploScrollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EjemploScrollTests.m; sourceTree = "<group>"; };
+		8BAFEF6F19789ECD00CEFE96 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BAFEF7019789ECD00CEFE96 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BAFEF7119789ECD00CEFE96 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,9 @@
 		4F9EBB13197862C800CE62F4 /* EjemploScroll */ = {
 			isa = PBXGroup;
 			children = (
+				8BAFEF6F19789ECD00CEFE96 /* ViewController.h */,
+				8BAFEF7019789ECD00CEFE96 /* ViewController.m */,
+				8BAFEF7119789ECD00CEFE96 /* ViewController.xib */,
 				4F9EBB1C197862C800CE62F4 /* AppDelegate.h */,
 				4F9EBB1D197862C800CE62F4 /* AppDelegate.m */,
 				4F9EBB1F197862C800CE62F4 /* Images.xcassets */,
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F9EBB18197862C800CE62F4 /* InfoPlist.strings in Resources */,
+				8BAFEF7319789ECD00CEFE96 /* ViewController.xib in Resources */,
 				4F9EBB20197862C800CE62F4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BAFEF7219789ECD00CEFE96 /* ViewController.m in Sources */,
 				4F9EBB1E197862C800CE62F4 /* AppDelegate.m in Sources */,
 				4F9EBB1A197862C800CE62F4 /* main.m in Sources */,
 			);
@@ -439,6 +449,7 @@
 				4F9EBB38197862C800CE62F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F9EBB39197862C800CE62F4 /* Build configuration list for PBXNativeTarget "EjemploScrollTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +458,7 @@
 				4F9EBB3B197862C800CE62F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
